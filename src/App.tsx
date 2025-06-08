@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import Header from './Header'
+import Student from './Student.tsx'
 import './App.css'
 
 function App() {
@@ -9,7 +9,9 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Student name="Mewtow" age= {10} grade="A+" isStudent={true} />
+      <Student />
+
     </>
   )
 }
